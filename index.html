@@ -3,23 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokemon Card Generator</title>
-
-    <!--  Google fonts  -->
-    <link 
-    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-    rel="stylesheet"
-    />
-
-    <!--  Stylesheet  -->
-    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div class="container">
-        <div id="card"></div>
-        <button id="btn"> Generate</button>
-    </div>
-    <!--  Scripts  -->
-    <script src="script.js"></script>
+<body style="background-color: #101091;">
+
+    <h1 class="header">Startup 3</h1>
+    <ul id="list_items" style="float:right">
+        <li style="opacity:0.3">Overview</li>
+        <li>Prices</li>
+        <li>Blog</li>
+        <li>Feedback</li>
+        <li id="last_button">Purchase</li>
+    </ul>
+
+    <div>
+        <span id="text">
+            <h1 id="header_second">Generate <br>Awesome Web <br> Pages</h1>
+            <p style="font-weight: 20;font-size: 25px;padding-top: 40px;padding-left: 60px;">
+                The most important part of the <br>
+                Startup is the samples. The <br>
+                samples form a aset of 25 usable <br>
+                pages you can use as is or you can <br>
+                add new blocks. </p>
+            <button id="search">Learn More</button>
+        </span>
+       
+        <span id="container">
+            <form action="" id="signup_form">
+                <h1 id="header_first">Sign Up Now</h1>
+                <input type="text" placeholder="Your email" id="input_first"> <br>
+                <input type="text" placeholder="Your password" id="input_second">
+                <br>
+                <div style="margin-top: 35px;">
+                    <h4 id="last_text"> &nbsp; I agree to the Terms of Service.</h4>
+                    <input type="checkbox" style="float:right;padding-top:20px;height:20px;width: 20px;">
+                </div>
+                <br>
+                <button id="second_button">Sign in</button>
+                <br><br>
+                <p>or</p>
+                <button id="third_button">Login Via Twitter</button>
+            </form>
+        </span>
+    </div> 
 </body>
 </html>
